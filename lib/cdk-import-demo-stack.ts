@@ -37,8 +37,8 @@ export class CdkImportDemoStack extends cdk.Stack {
             "Effect": "Allow",
             "Principal": {
               "AWS": [
-                "arn:aws:iam::283023040015:user/vivek",  //replace 123456789012
-                "arn:aws:iam::283023040015:role/dms-vpc-role"  //replace 123456789012
+                "arn:aws:iam::123456789012:user/vivek",  //replace with your IAM principal 
+                "arn:aws:iam::123456789012:role/dms-vpc-role"  //replace with your IAM principal
 
               ]
             },
